@@ -1,0 +1,61 @@
+main{
+    padding-inline: 23rem;
+}
+
+main h2{
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+    font-weight: 700;
+    font-size: 4.8rem;
+    max-width: 17ch;
+    color: var(--text-color1);
+    position: relative;
+}
+
+main h2::before{
+    content: "";
+    position: absolute;
+    width: 92rem;
+    height: 2px;
+    background-color: var(--color-primary);
+    top: 24rem;
+}
+
+main h3{
+    font-size: 4.8rem;
+    color: var(--text-color1);
+}
+
+.blocoTexto{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.4rem;
+    flex-wrap: wrap;
+
+}
+
+.blocoTexto .imagens{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.blocoTexto .textos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+.blocoTexto .textos p{
+    font-size: 2.0rem;
+    color: #7C7C7C;
+    max-width: 38ch;
+}
+
+@media screen and (max-width: 950px){
+    main h2::before{
+        display: none;
+    }
+}

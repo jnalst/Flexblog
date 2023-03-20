@@ -1,0 +1,55 @@
+.visioncompany {
+  display: flex;
+  gap:2.5rem 5rem;
+  padding-inline: 20rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-block: 10rem;
+  margin-inline: auto;
+}
+
+.visioncompany h2 {
+  font-size: 3.6rem;
+  padding-left: 2rem;
+  position: relative;;
+}
+
+.visioncompany p {
+  font-size: 2rem;
+  max-width: 25ch;
+  padding-bottom: 3rem;
+}
+
+.visioncompany .purpledetail h2::before{
+    content: "";
+    display: block;
+    width: 0.6rem;
+    height: 2.5rem;
+    background-color: var(--purpple);
+    left: 0.5rem;
+    top: 1rem;
+    position: absolute;
+}
+
+.visioncompany .reddetail h2::before{
+    content: "";
+    display: block;
+    width: 0.6rem;
+    height: 2.5rem;
+    background-color: var(--redwine);
+    left: 0.5rem;
+    top: 1rem;
+    position: absolute;
+}
+
+.visioncompany .bluedetail h2::before{
+    content: "";
+    display: block;
+    width: 0.6rem;
+    height: 2.5rem;
+    background-color: var(--bluecyan);
+    left: 0.5rem;
+    top: 1rem;
+    position: absolute;
+}
+

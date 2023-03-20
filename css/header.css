@@ -1,0 +1,52 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    padding:  2rem 23rem;
+    color: var(--text-color0);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu h1{
+    font-weight: 700;
+    font-size: 3.6rem;
+
+}
+
+.header-menu{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: var(--text-color0);
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+
+.menu-detalhe{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 23rem;
+    padding-block: 0.5rem;
+    background-color: var(--color-secundary);
+    flex-wrap: wrap;
+}
+
+.menu-detalhe p{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--text-color0);
+    padding-bottom: 1rem;
+}
+
+.menu-detalhe a{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--text-color0);
+    text-decoration: none;
+    padding-bottom: 1rem;
+}

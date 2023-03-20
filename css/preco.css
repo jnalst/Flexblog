@@ -1,0 +1,65 @@
+.preco .bg {
+  height: auto;
+  display: flex;
+  padding-inline: 10rem;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  padding-top: 7rem;
+  gap: 5rem;
+  flex-wrap: wrap;
+  padding-bottom: 4rem;
+}
+
+.preco .bg .plano {
+  width: 40rem;
+  height: 54rem;
+  border: #ffffff solid;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.preco .bg h2 {
+  font-size: 4.8rem;
+  color: var(--text-color3);
+  background-color: #f7f7f7;
+}
+
+.preco .bg h3 {
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+}
+
+.preco .bg h3 span {
+  font-size: 4rem;
+}
+
+.preco .bg .plano ul {
+  text-align: start;
+  font-style: italic;
+  font-size: 2rem;
+  color: var(--text-color3);
+  padding-bottom: 3rem;
+}
+
+.preco .bg .plano ul li {
+  text-align: start;
+  font-style: italic;
+  font-size: 2rem;
+  color: var(--text-color3);
+  padding-bottom: 1rem;
+  padding-inline: 7rem;
+}
+
+.preco .bg .plano a {
+  text-decoration: none;
+  color: var(--text-color1);
+  font-size: 3.6rem;
+  font-weight: 700;
+  border: #222222 solid;
+  margin-inline: 6rem;
+  margin-bottom: 3rem;
+}

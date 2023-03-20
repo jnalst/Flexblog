@@ -1,0 +1,65 @@
+detalhe menu - color-secudary #122AB2
+Seg / Sex - 08:00 às 18:00
++55 21 9999-9999
+Av. Ali Perto, 330, Botafogo - RJ
+
+menu - color-primary - #2C70FF text-color - #FFFFFF
+FlexBlog
+Sobre  Produtos Preço Contato
+
+main - text-color1 - #222222 - text-color2 - #7C7C7C
+Novos valores e Propriedades de CSS
+Sobre
+2x - O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
+
+section - produtos - text-color1 - #222222 - text-color2 - #A4A4A4
+Produtos
+Purple
+Pink
+Blue
+
+section - planos - text-color1 - #A4A4A4 - text-color2 - #222222 - text-color3 - #7C7C7C - color-primary -#2C70FF 
+Cobre
+R$19
+Planos Ilimitados Acesso Restrito Conteúdo Secreto Suporte 24h
+Prata
+R$39
+Planos Ilimitados Acesso Restrito Conteúdo Secreto Suporte 24h Compra Exclusiva
+Ouro
+R$79
+Planos Ilimitados Acesso Restrito Conteúdo Secreto Suporte 24h Compra Exclusiva Download dos Itens
+COMPRAR
+
+section - visão da empresa - text-color1 - #A4A4A4 - text-color2 - #7C7C7C
+Inteligente
+O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.
+Compacto
+O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.
+Econômico
+O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.
+Transparente
+O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.
+Opaco
+O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.
+Sustentável
+O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.
+
+section - newsletter - - text-color1 - #A4A4A4 - text-color2 - #7C7C7C - color-primary -#2C70FF - bg-color-#F7F7F7
+Newsletter
+assine e fique por dentro das novidades
+Seu e-mail
+ASSINAR
+
+footer - footer - color-secudary #122AB2
+FlexBlog © Todos os direitos reservados.
+
+
+--color-primary:#2C70FF;
+  --color-secundary:#122AB2;
+  --text-color0:#FFFFFF;
+  --text-color1:#222222;
+  --text-color2:#7C7C7C;
+  --text-color3:#A4A4A4;
+  --purpple: #be82fe;
+  --redwine: #ff205f;
+  --bluecyan: #00daed;
